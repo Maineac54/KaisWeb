@@ -1,0 +1,48 @@
+
+#body-header {
+	background-color: fuchsia;
+	font-family: Georgia, Times, Serif;
+	font-style: oblique;
+	font-size: 40px;
+	text-align: center;
+}
+
+#body-nav {
+	background-color: black;
+}
+
+#body-main {
+	background-color: yellow;
+	height: 420px;
+}
+
+#body-footer {
+	background-color: fuchsia;
+}
+
+A:link {
+	color: yellow;
+}
+A:visited {
+	color: orange;
+}
+
+#main-r1c1 {
+	background-color: red;
+  
+}
+
+#main-r1c2 {
+	background-color: blue;
+}
+
+#main-r1c3 {
+	background-color: green;
+}
+
+#fractals {
+	background-color: black;
+	width: 400px;
+	height: 400px;
+	border:3px solid fuchsia;
+}
