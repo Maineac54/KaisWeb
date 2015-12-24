@@ -1,0 +1,18 @@
+#!/bin/bash
+HOST='ftp.fairchildren.net'
+USER='fairchildren.net'
+PASSWD='2Bme4@day'
+
+cd /home/adm-david/website/KaisWeb
+rm *~
+
+ftp -in $HOST > /tmp/ftp.workded 2> /tmp/ftp.failed <<END_SCRIPT
+quote USER $USER
+quote PASS $PASSWD
+
+cd public
+mput *
+quit
+
+END_SCRIPT
+exit 0
